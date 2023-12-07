@@ -2,33 +2,47 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" type= "text/css" href="style.css"/>
-        <link rel="shortcut icon" type="image/ico" href="img/favicon.gif" />
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Application météo</title>
     </head>
-    <body>
-        <div class="centralBloc">
-            <h1>This is a meteo web application</h1>
-            <div class="child" id="bloc1">
-                <p>BLOC 1</p>
-                <p>Sunny weather</p>
-                <p></p>The town is FLC</p>
-                <p id="zone_meteo">FLC</p>
-                <input class ="btn" type="button" value="APPEL API METEO"  onclick="showData()"  />
-            </div>
-            <div class="child" id="bloc2">
-                <p>BLOC 2</p>
-                <span>X °C</span>
-            </div>
-            <div class="child" id="bloc3">
-                <p>BLOC 3</p>
-                <span>X %</span>
-                <span>Humidité</span>
-            </div>
-        </div>
-        
-    
 
-        <script type = "text/javascript" src = "meteo.js" ></script>
+    <body>
+        <main>
+            <div class="centralBloc">
+                <h1>Application météo</h1>
+
+                <div class="child" id="bloc1">
+                    
+                    
+                    
+                    <div id="weather-icon">
+                        <img id="icon" src="" />
+                    </div>
+                    <p id="temp">X °C</p>
+                    <p id="description">Sunny weather</p>
+                    <p id="city">FLC</p>
+                    
+                </div>
+                <div class="child" id="bloc2">
+                    
+                    <i class="fa fa-thermometer-half"></i>
+                    <div>
+                        <p id="feelsLike">X °C</p>
+                    </div>
+                </div>
+                <div class="child" id="bloc3">
+                    
+                    <i class="fa fa-tint"></i>
+                    <p id ="humidity">X %</p> 
+                    
+                    
+                </div>
+            </div>
+            
+        
+
+            <script type = "text/javascript" src = "meteo.js" ></script>
+        </main>
     </body>
 
 </html>
