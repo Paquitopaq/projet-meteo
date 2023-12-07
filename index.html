@@ -3,15 +3,17 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" type= "text/css" href="style.css"/>
         <link rel="shortcut icon" type="image/ico" href="img/favicon.gif" />
-        <script type = "text/javascript" src = "meteo.js" ></script>
+        
     </head>
     <body>
         <div class="centralBloc">
             <h1>This is a meteo web application</h1>
             <div class="child" id="bloc1">
                 <p>BLOC 1</p>
-                <span>Sunny weather</span>
-                <span>The town is FLC</span>
+                <p>Sunny weather</p>
+                <p></p>The town is FLC</p>
+                <p id="zone_meteo">FLC</p>
+                <input class ="btn" type="button" value="APPEL API METEO"  onclick="showData()"  />
             </div>
             <div class="child" id="bloc2">
                 <p>BLOC 2</p>
@@ -23,10 +25,10 @@
                 <span>Humidité</span>
             </div>
         </div>
-        </body>
+        
     
 
-
+        <script type = "text/javascript" src = "meteo.js" ></script>
     </body>
 
 </html>

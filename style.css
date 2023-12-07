@@ -9,7 +9,8 @@ body{
     background-color: azure;
     border-style: solid;
     border-width: 5px;
-    margin : 20%;
+    margin : 25%;
+    margin-top: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,7 +27,8 @@ body{
     padding-bottom: 20%;
     padding-left: 5% ;
     padding-right: 5%;
-    flex: 1 1 200%;
+    flex: 1 1 100%;
+    justify-content: center;
     
 }
 
@@ -36,6 +38,7 @@ body{
     border-width: 2px;
     margin-right: 0;
     flex: 1 1 25%;
+    justify-content: center;
 }
 
 #bloc3{
@@ -44,6 +47,7 @@ body{
     border-width: 2px;
     flex-direction: row;
     flex: 1 1 25%;
+    justify-content: center;
 }
 
 
