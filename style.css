@@ -1,52 +1,104 @@
 body{
-    background-color: aqua;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+    font-family: "Arial";
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
     
 }
 
-
+#temp{
+    font-size: 6rem;
+    font-weight: bold;
+    margin:0;
+}
 .centralBloc{
-    background-color: azure;
-    border-style: solid;
-    border-width: 5px;
-    margin : 25%;
-    margin-top: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
+    background-color: #fcba03;
+    /*border-style: solid;
+    border-width: 1px;*/
+    margin:auto;
+    box-shadow: 3px 3px 7px #0B0B0C;
+    width: 400px;
+    border-radius: 30px;
+   
     
 }
 
 #bloc1{
-    background-color: brown;
-    border-style: solid;
-    border-width: 2px;
-   
+    background-color:#fcba03;
+    /*border-style: solid;
+    border-width: 1px;*/
+    display: flex;
+    flex-direction: column;
     flex: 1 1 100%;
     justify-content: center;
     align-items: center;
+    border-radius: 25px 25px 0px 0px;
+    
     
 }
 
 #bloc2{
-    background-color: rgb(206, 245, 100);
+    background-color: #fcba03;
+    
+    border-color: white;
     border-style: solid;
-    border-width: 2px;
-    margin-right: 0;
-    flex: 1 1 25%;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
     justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 0px 25px;
+    
 }
 
 #bloc3{
-    background-color: blueviolet;
+    background-color: #fcba03;
+    border-color: white;
     border-style: solid;
-    border-width: 2px;
-    
-    flex: 1 1 25%;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
     justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 25px 0px;
+    
 }
 
+.bottomBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+}
+
+i{
+    
+    margin:5%;
+    width:1em;
+}
+
+#text{
+    margin:0px;
+    
+}
+
+img{
+    width: 100px;
+    align-self: center;
+}
+
+.bold{
+    font-weight: bold;
+}
 
 

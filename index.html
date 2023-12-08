@@ -8,39 +8,49 @@
 
     <body>
         <main>
-            <div class="centralBloc">
-                <h1>Application météo</h1>
-
-                <div class="child" id="bloc1">
-                    
-                    
-                    
-                    <div id="weather-icon">
-                        <img id="icon" src="" />
-                    </div>
-                    <p id="temp">X °C</p>
-                    <p id="description">Sunny weather</p>
-                    <p id="city">FLC</p>
-                    
-                </div>
-                <div class="child" id="bloc2">
-                    
-                    <i class="fa fa-thermometer-half"></i>
-                    <div>
-                        <p id="feelsLike">X °C</p>
-                    </div>
-                </div>
-                <div class="child" id="bloc3">
-                    
-                    <i class="fa fa-tint"></i>
-                    <p id ="humidity">X %</p> 
-                    
-                    
-                </div>
-            </div>
+            <header><h1>Application météo</h1></header>
             
-        
-
+            <section class="centralBloc">
+               
+                <div class="child" id="bloc1">
+                     
+                    <div id="weather-icon">
+                        <img id="icon" src="" style="font-size: 4em"/>
+                        
+                    <div class="text">
+                        <p id="temp" style="font-size: 3em ">X °C</p></div>
+                    </div>
+                    
+                    <div class="text">
+                        <p id="description" class="bold">Sunny weather</p>
+                    </div>
+                    <div class="location">
+                        <i class="fa fa-map-marker fa-2x"></i>
+                        <p id="city">FLC</p>
+                    </div>
+                    
+                    
+                </div>
+                <div class="bottomBlock">
+                    <div class="child" id="bloc2">
+                        
+                        <i class="fa fa-thermometer-half fa-3x"></i>
+                        <div class="text">
+                            <p id="feelsLike" >X °C</p>
+                            <p class="bold">Ressenti</p>
+                        </div>
+                    </div>
+                    <div class="child" id="bloc3">
+                        
+                        <i class="fa fa-tint fa-3x" ></i>
+                        <div class="text">
+                            <p id ="humidity">X %</p> 
+                            <p class="bold">Humidité</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
             <script type = "text/javascript" src = "meteo.js" ></script>
         </main>
     </body>

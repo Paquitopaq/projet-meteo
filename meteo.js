@@ -36,10 +36,10 @@ async function showData(){
 
     console.log(dataOpenWeather);
     cityHtml.textContent = dataOpenWeather.name;
-    tempHtml.textContent = dataOpenWeather.main.temp + " °C";
-    feelHtml.textContent = dataOpenWeather.main.feels_like + " °C";
+    tempHtml.textContent = Math.round(dataOpenWeather.main.temp) + "°C";
+    feelHtml.textContent = Math.round(dataOpenWeather.main.feels_like) + "°C";
     descriptionHtml.textContent = dataOpenWeather.weather[0].description;
-    humidityHtml.textContent = dataOpenWeather.main.humidity + "% Humidité";
+    humidityHtml.textContent = dataOpenWeather.main.humidity + "%";
     
     //Mise en place de l'icone
     icon = dataOpenWeather.weather[0].icon;
@@ -58,6 +58,5 @@ async function jsonFile() {
 }
 
 showData();
-
 //Fonction pour renouvellement toutes les heures
 setInterval(showData, 3600000);
