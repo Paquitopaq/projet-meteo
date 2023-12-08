@@ -4,17 +4,7 @@ body{
     font-size: 20px;
 }
 
-h1{
-    text-align: center;
-    
-}
-
-#temp{
-    font-size: 6rem;
-    font-weight: bold;
-    margin:0;
-}
-.centralBloc{
+#centralBloc{
     background-color: #fcba03;
     /*border-style: solid;
     border-width: 1px;*/
@@ -87,10 +77,6 @@ i{
     width:1em;
 }
 
-#text{
-    margin:0px;
-    
-}
 
 img{
     width: 100px;
@@ -102,3 +88,13 @@ img{
 }
 
 
+h1{
+    text-align: center;
+    
+}
+
+#temp{
+    font-size: 6rem;
+    font-weight: bold;
+    margin:0;
+}
