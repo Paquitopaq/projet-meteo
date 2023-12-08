@@ -7,5 +7,5 @@ You can download the files freely.
 If you want to open it in local follow this instructions :
 - Open a shell prompt.
 - Go in the folder.
-- Type the command : python3 -m http.server
+- Type the command : python3 -m http.server (download python3 if you don't have it on your computer).
 - open the index.html
